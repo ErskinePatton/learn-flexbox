@@ -1,8 +1,9 @@
 .flexbox-container {
-  height: 700px;
+  height: 800px;
   background-color: rgb(21, 133, 127);
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -11,11 +12,11 @@
   margin: 10px;
   border: 10px solid rgb(11, 26, 110);
   background-color: #c22424;
+  flex: 1;
 }
 
 .flexbox-item-1 {
   min-height: 100px;
-  flex: 1;
 }
 
 .flexbox-item-2 {
